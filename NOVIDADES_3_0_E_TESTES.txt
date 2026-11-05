@@ -1,0 +1,25 @@
+EXPLORADOR ZIP 3.0 — BACKUPS E VERIFICAÇÃO
+
+Novidades implementadas nesta versão (9 operações/controles identificáveis):
+01. Backup de todo o conteúdo da pasta atual, recursivamente.
+02. Backup só dos itens selecionados (arquivos e pastas).
+03. ZIP com ou sem pasta principal Backup/.
+04. Incluir opcionalmente manifesto BACKUP_SHA256.txt com hash e tamanho de cada arquivo.
+05. Gerar nome automático do backup usando data e hora.
+06. Escolher pasta de destino pelo seletor de pastas do Android (SAF).
+07. Visualizar progresso aproximado e solicitar cancelamento.
+08. Reabrir e validar leitura de todas as entradas do ZIP criado; verificar outro ZIP.
+09. Consultar e copiar relatório da operação.
+
+Proteções: nenhuma exclusão automática de arquivos originais; remoção best-effort de ZIP parcial em caso de falha; limites de 20.000 arquivos, profundidade 32 e 1 GiB de dados; validação de nomes; confirmação antes de criar; detecção simples de destino dentro da origem quando os IDs SAF permitem identificar.
+
+LIMITAÇÕES IMPORTANTES:
+- O backup NÃO é incremental nem roda em segundo plano.
+- O progresso informa arquivos/bytes processados, não uma porcentagem completa.
+- O manifesto SHA-256 precisa de conferência independente caso seja necessária autenticação.
+- Os timestamps de origem e os atributos completos não são garantidos na restauração.
+- A verificação de ZIP não afirma que o arquivo foi criado por uma fonte confiável.
+- Não escolher destino dentro da origem; em provedores SAF com IDs não hierárquicos talvez não seja possível identificar essa condição antecipadamente.
+- Para restaurar, usar o extrator existente após inspeção; não existe restauração automática com sobrescrita.
+- O processamento depende do app permanecer aberto.
+- Esta versão NÃO foi compilada nem testada em dispositivo Android aqui.

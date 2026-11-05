@@ -1,0 +1,44 @@
+EXPLORADOR ZIP 3.4 — SINCRONIZACAO UNILATERAL SEGURA (EXPERIMENTAL)
+
+A secao 'Sincronizar 3.4 · copiar apenas ausentes' permite:
+01. Selecionar pasta de origem pelo seletor Android.
+02. Selecionar pasta de destino pelo seletor Android.
+03. Solicitar e reter permissoes SAF quando permitidas.
+04. Incluir ou ignorar nomes iniciados por ponto na origem.
+05. Sempre detectar nomes ocultos existentes no destino.
+06. Examinar subpastas da origem recursivamente.
+07. Examinar subpastas do destino recursivamente.
+08. Comparar caminhos relativos entre as arvores.
+09. Mostrar previa antes de fazer qualquer modificacao.
+10. Identificar novas pastas necessarias no destino.
+11. Identificar arquivos ausentes no destino.
+12. Contabilizar arquivos que ja existem (ignorados).
+13. Detectar conflitos entre arquivo e pasta.
+14. Estimar quantidade de bytes informados pelo provedor para copia.
+15. Mostrar relatorio dos itens planejados.
+16. Confirmar explicitamente antes de executar a copia.
+17. Revalidar a listagem do destino antes de copiar.
+18. Criar subpastas faltantes quando autorizado.
+19. Copiar somente arquivos ausentes, sem atualizar os existentes.
+20. NUNCA excluir arquivos preexistentes nem arquivos de origem.
+21. NUNCA mover arquivos: operacao unilateral somente de copia.
+22. Informar contagem de arquivos copiados, ignorados e falhas.
+23. Mostrar etapa atual e contadores de progresso ao solicitar.
+24. Permitir solicitar cancelamento entre arquivos e durante fluxos de copia.
+25. Tentar apagar apenas o arquivo novo incompleto em caso de erro.
+26. Gerar relatorio final com falhas.
+27. Copiar relatorio para a area de transferencia.
+28. Limpar previa sem tocar nos arquivos.
+29. Bloquear destino igual a origem ou dentro dela quando detectavel pelos IDs SAF.
+30. Limitar a analise a 2500 itens por arvore e 24 niveis.
+
+LIMITACOES IMPORTANTES:
+- Nao e sincronizacao bidirecional nem backup incremental de alteracoes: somente copia ITENS AUSENTES.
+- Arquivos modificados ja presentes no destino NAO sao atualizados.
+- Nao ha exclusao ou resolucao automatica de conflitos.
+- Datas de criacao/modificacao podem mudar em copias, dependem do provedor Android.
+- Cancelamento nao reverte arquivos ja criados.
+- Operacoes exigem que a atividade permaneça aberta; nao ha serviço persistente.
+- Provedores SAF podem nao permitir escrita, consulta ou paths de diretorio.
+- As selecoes nao sao restauradas automaticamente depois de reiniciar.
+- A compilacao Android e os testes em aparelho ainda precisam ser realizados.

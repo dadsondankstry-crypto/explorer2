@@ -1,0 +1,43 @@
+# Explorador ZIP 2.9 — Transferências controladas
+
+Aplicativo Android nativo Java. Projeto Gradle pronto para importar diretamente na **raiz** de um repositório via ZiptoGit e compilar no GitHub Actions (`.github/workflows/main.yml`).
+
+## O que mudou na versão 2.9
+
+Novo botão **⇄ Transferências 2.9 · fila, progresso e cancelar**. Após selecionar itens em uma pasta comum, use **Arquivos > Recortar** ou **Arquivos > Copiar**, navegue até a pasta de destino (inclusive usando a outra aba) e abra o menu de transferências.
+
+1. Conferir fila de nomes antes de executar.
+2. Validar se uma pasta de origem foi escolhida.
+3. Validar se uma pasta de destino foi escolhida.
+4. Impedir origem e destino iguais.
+5. Escolher transferência nativa por **copyDocument**.
+6. Escolher movimentação nativa por **moveDocument**.
+7. Confirmar antes de iniciar.
+8. Verificar nomes iguais no destino antes de cada item; **não sobrescreve intencionalmente**.
+9. Executar itens sequencialmente fora da thread da interface.
+10. Exibir andamento por quantidade de itens.
+11. Exibir o nome do arquivo atual.
+12. Exibir duração em segundos.
+13. Permitir ocultar a janela e retornar ao progresso pelo menu.
+14. Solicitar cancelamento **entre itens** (não interrompe uma chamada do provedor já em andamento).
+15. Contabilizar sucesso e falhas por item.
+16. Manter log de erros individuais.
+17. Configurar opção de parar no primeiro erro.
+18. Exibir resumo final e número de itens não processados.
+19. Copiar relatório em texto para área de transferência.
+20. Limpar relatório quando não há operação em andamento.
+21. Registrar no histórico geral do aplicativo um resumo da transferência.
+22. Não limpar automaticamente a seleção de recorte se a operação foi parcial.
+
+**Limites:** não é transferência persistente em segundo plano. A tela/app devem permanecer ativos. O cancelamento age apenas entre operações individuais. Os resultados parcialmente concluídos não são revertidos. O provedor de arquivos decide como executa `moveDocument` e `copyDocument`; metadados podem mudar. Não há fallback copiar+excluir para movimentos. Conflitos de nome são verificados, mas provedores podem alterar nomes ou existir condição de corrida; não há garantia de atomicidade.
+
+## Compilar
+
+1. Enviar o ZIP original via ZiptoGit, **sem extrair**.
+2. Abrir GitHub > Actions e verificar a execução de **Gerar APK - Explorador ZIP**.
+3. Baixar o artefato `ExploradorZIP-APK` se a compilação ficar verde.
+4. Extrair `app-debug.apk` e instalar no Android.
+
+O projeto mantém `applicationId com.exemplo.exploradorzip`, `targetSdk 35`, Java 17, Gradle 8.9 e o ícone personalizado das versões anteriores.
+
+**Ainda não foi compilado nem testado em aparelho real nesta entrega.** Para atualizar um APK já instalado, a assinatura precisa ser compatível; APKs debug de máquinas diferentes podem exigir desinstalação da versão anterior. Faça testes com arquivos sem importância.

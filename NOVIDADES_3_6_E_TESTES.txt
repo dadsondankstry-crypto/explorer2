@@ -1,0 +1,3 @@
+Novidades: pesquisar conteúdo UTF-8 recursivamente; seleção por regex; buscas salvas; relatório e cancelamento; importar/exportar preferências JSON; GZIP de um arquivo; extrair GZIP; auditoria de 300 propostas.
+
+Limitações: não são 300 funções implementadas. Dados não são apagados pelos novos recursos; limites de tamanho/profundidade. Compilação e testes em Android ainda pendentes.

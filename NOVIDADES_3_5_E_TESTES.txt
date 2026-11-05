@@ -1,0 +1,1 @@
+Backup incremental 3.5: 20 itens (detalhados em README.md). Teste com pastas descartaveis. Referencia ZIP deve ter os mesmos caminhos relativos que a pasta de origem (sem diretorio envolvente). A restauracao da cadeia nao e automatica.

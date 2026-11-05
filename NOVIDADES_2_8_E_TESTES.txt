@@ -1,0 +1,38 @@
+# Explorador ZIP 2.8 — transferência local
+
+Projeto Android nativo Java (SDK 35, Gradle 8.9) para GitHub Actions. ZIP do projeto contém os arquivos na raiz, inclusive `.github/workflows/main.yml`.
+
+## Funcionalidades novas verificáveis no código
+1. Menu **Compartilhar** com seletor nativo do Android.
+2. Envio de arquivo individual por ACTION_SEND.
+3. Envio de vários arquivos por ACTION_SEND_MULTIPLE.
+4. Permissão temporária de leitura para o app receptor.
+5. Menu **Wi-Fi local** com servidor HTTP temporário.
+6. Exposição somente de arquivos selecionados por toque longo, sem pastas.
+7. Listagem HTML no navegador de outro dispositivo na mesma rede.
+8. Download individual de arquivos por link.
+9. Token aleatório temporário (192 bits) inserido no URL.
+10. Botão copiar endereço de acesso.
+11. Botão parar compartilhamento.
+12. Parada automática quando a Activity é destruída.
+13. Limite de 3 conexões de processamento simultâneo.
+14. Bloqueio de caminhos arbitrários e requisições que não sejam GET.
+15. Interface do servidor sem bibliotecas ou CDNs externas.
+16. Proteção contra nomes HTML injetados na listagem.
+17. Sem upload, exclusão, sobrescrita ou renomeação via rede.
+18. Detecção de IPv4 da rede local quando disponível.
+
+## Avisos importantes
+- O compartilhamento HTTP na rede local **não é criptografado**. Use apenas em Wi-Fi privado e confiável. O token não substitui TLS.
+- Se o Android isolar clientes Wi-Fi ou não tiver endereço IPv4 acessível, o recurso pode não funcionar.
+- O servidor só funciona enquanto o processo / tela estiver vivo. Não é um serviço em segundo plano.
+- Esse recurso é para baixar os arquivos selecionados de outro aparelho; não é um cliente FTP, SMB ou SFTP.
+- Teste somente com arquivos sem importância. O Android pode restringir provedores de documentos.
+- O pacote foi inspecionado estruturalmente, mas o APK **não foi compilado ou testado num telefone neste ambiente**.
+- O código anterior da 2.7 foi mantido; sua compilação e funcionamento também dependem do dispositivo.
+
+## Como compilar
+Envie o ZIP original diretamente ao ZiptoGit, confira se `.github/workflows/main.yml` está no repositório, abra Actions e baixe o artefato gerado se a compilação passar.
+
+## Assinatura
+O APK de debug no GitHub pode ter assinatura diferente do APK instalado. Para atualizações sem reinstalação, configure assinatura de release persistente.

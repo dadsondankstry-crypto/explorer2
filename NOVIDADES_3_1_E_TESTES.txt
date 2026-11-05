@@ -1,0 +1,28 @@
+EXPLORADOR ZIP 3.1 — RECURSOS NOVOS
+01. Selecionar backup A pelo seletor Android.
+02. Selecionar backup B pelo seletor Android.
+03. Comparar backups sem extrair arquivos.
+04. Identificar arquivos adicionados no backup novo.
+05. Identificar arquivos ausentes no backup novo.
+06. Identificar arquivos com conteúdo alterado.
+07. Contar arquivos idênticos por SHA-256.
+08. Detectar possíveis renomeações ou movimentos usando hash idêntico.
+09. Auditar um arquivo ZIP isoladamente.
+10. Verificar hash SHA-256 por arquivo no ZIP.
+11. Verificar manifesto BACKUP_SHA256.txt, quando presente.
+12. Apontar entradas ausentes ou divergentes do manifesto.
+13. Mostrar quantidade de arquivos, pastas e bytes descompactados.
+14. Mostrar progresso por entradas processadas e bytes lidos.
+15. Solicitar cancelamento de auditoria.
+16. Mostrar relatório final e copiar para a área de transferência.
+17. Limpar a seleção dos dois backups sem apagar arquivos.
+18. Limitar número de entradas e volume de descompressão para reduzir riscos.
+
+TESTES NO ANDROID
+A. Selecione dois ZIPs de teste com conteúdos parecidos.
+B. Compare e confira as seções NOVO/AUSENTE/ALTERADO.
+C. Audite um backup 3.0 com BACKUP_SHA256.txt.
+D. Copie o relatório e abra em editor de texto.
+E. Confira que os ZIPs originais permanecem intactos.
+
+A versão não foi compilada nem testada em um dispositivo.

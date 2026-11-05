@@ -1,0 +1,44 @@
+# Explorador ZIP 2.7 — auditorias, integridade e relatórios (Android nativo)
+
+Projeto Java Android, offline, pronto para o ZiptoGit: arquivos do projeto estão **na raiz do ZIP**, inclusive `.github/workflows/main.yml`. Preserva os recursos existentes da versão 2.6.
+
+## Novidades: 43 comandos/opções de menu (9 + 23 + 11)
+
+No aplicativo, toque em **🛡 Auditoria 2.7**. As opções dividem-se em três menus. **Vários comandos são variantes de um mesmo motor de análise**; não representam 43 mecanismos independentes. Para arquivos ZIP, continue utilizando as funções ZIP existentes. A auditoria 2.7 destina-se às pastas comuns autorizadas via SAF.
+
+### Integridade (9)
+01 SHA-512 do selecionado; 02 SHA-1 (legado); 03 MD5 (legado); 04 CRC32; 05 confrontar SHA-256 com um valor informado; 06 manifesto SHA-256 de vários selecionados; 07 verificar se selecionados podem ser lidos; 08 comparação byte a byte de dois arquivos; 09 ficha com SHA-256, SHA-512, CRC32 e metadados.
+
+### Auditoria recursiva (23)
+01 resumo de pastas, arquivos e tamanho conhecido; 02 30 maiores; 03 30 mais recentes; 04 30 mais antigos; 05 arquivos vazios; 06 pastas vazias; 07 ocultos; 08 arquivos sem extensão; 09 distribuição por extensão; 10 por categoria; 11 por ano; 12 por mês; 13 por tipo MIME; 14 tamanho desconhecido; 15 data desconhecida; 16 maiores que N MB; 17 mais antigos que N dias; 18 duplicados por SHA-256; 19 inventário dos caminhos relativos; 20 nomes repetidos em subpastas; 21 caminhos mais profundos; 22 pastas com mais filhos imediatos; 23 pastas maiores por soma conhecida dos descendentes.
+
+### Histórico, exportação e diagnósticos (11)
+01 histórico integral; 02 erros registrados; 03 êxitos registrados; 04 estatísticas do histórico; 05 exportar histórico TXT; 06 exportar último relatório TXT; 07 copiar relatório; 08 limpar histórico com confirmação; 09 listar permissões SAF persistentes; 10 informações da pasta ativa; 11 espaço do volume externo do aplicativo (não equivale à pasta SAF ativa).
+
+Controles adicionais: cancelar auditoria em andamento, progressos em contador de itens, explicação das limitações.
+
+## O que NÃO faz (de propósito)
+- Não apaga, move nem altera arquivos dentro das novas funções 2.7. Não é antivírus.
+- Não acessa pastas privadas de outros aplicativos; não usa permissão de gerenciamento irrestrito.
+- Não recupera arquivos excluídos nem altera datas de criação/modificação.
+- Não declara dados incompletos como completos quando o provedor falha ou o limite de busca é ultrapassado.
+
+## Limites e segurança
+- Auditoria recursiva: 3.000 entradas e 18 níveis, aborta quando exceder.
+- Hash/comparação: máximo 256 MB por arquivo; manifesto: máximo 80 arquivos.
+- Duplicados: arquivos até 16 MB; máximo 60 candidatos com tamanho igual. Não afirmar inexistência de duplicados fora desses limites.
+- Resultado em tela pode ser truncado. Exportação TXT via seletor nativo do Android (ACTION_CREATE_DOCUMENT).
+- Datas são de **última modificação**, quando disponíveis. Arquivos ocultos são considerados em auditoria mesmo que o filtro visual os esconda, desde que o provedor os disponibilize.
+- SHA-1 e MD5 disponíveis por compatibilidade; não usar como prova criptográfica segura. Hashes não detectam vírus.
+- Pesquisa e checksums são executados em thread de trabalho com cancelamento cooperativo.
+
+## Instalação / compilação
+1. Envie **o ZIP original, sem extrair**, para seu repositório usando ZiptoGit.
+2. Verifique se `.github/workflows/main.yml` está presente no GitHub.
+3. Abra Actions e aguarde a execução terminar com indicador verde.
+4. Baixe `ExploradorZIP-APK`, extraia o artefato e instale `app-debug.apk`.
+5. Se Android acusar assinatura diferente, isso decorre do APK de depuração do GitHub Actions; para atualizações confiáveis, configure assinatura release persistente.
+
+`applicationId`: `com.exemplo.exploradorzip` · `versionCode`: 9 · `versionName`: 2.7.0 · `targetSdk`: 35.
+
+O projeto **não foi compilado nem testado em um Android real** nesta entrega; a estrutura e a sintaxe Java foram verificadas em ambiente sem Android SDK, mas a compilação completa precisa ocorrer no GitHub Actions. Não use auditorias como única forma de verificar arquivos importantes.

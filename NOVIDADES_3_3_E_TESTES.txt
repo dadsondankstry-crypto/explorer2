@@ -1,0 +1,29 @@
+EXPLORADOR ZIP 3.3 — NOVIDADES E LIMITES
+
+Nova ferramenta: COMPARAR PASTAS (SOMENTE LEITURA)
+1. Selecionar pasta A pelo seletor Android
+2. Selecionar pasta B pelo seletor Android
+3. Preservar acesso persistente de leitura quando permitido
+4. Varrer subpastas recursivamente
+5. Comparar caminhos relativos
+6. Detectar itens presentes somente na pasta A
+7. Detectar itens presentes somente na pasta B
+8. Detectar divergencias de tipos arquivo/pasta
+9. Detectar diferencas de tamanho
+10. Comparar SHA-256 para arquivos pequenos (opcional)
+11. Sinalizar datas divergentes como POSSIVEL diferenca (sem declarar mudanca)
+12. Identificar informacao incompleta de metadados
+13. Alternar inclusao de arquivos ocultos
+14. Listar itens sem diferencas detectadas
+15. Mostrar andamento e numero de documentos lidos
+16. Solicitar cancelamento
+17. Gerar relatorio detalhado
+18. Copiar relatorio para a area de transferencia
+19. Limpar selecao de pastas
+20. Limitar leitura a 3500 itens/pasta, profundidade 32 e hash 16 MiB/arquivo
+
+NAO IMPLEMENTADO nesta versao: backup incremental real, sincronizacao, restauracao automatica, agendamento, exclusao de duplicados, operacoes persistentes em segundo plano.
+COMPARACAO E SOMENTE LEITURA: NAO MOVE, COPIA OU EXCLUI.
+Importante: sem hash, igualdade de tamanho e de data NAO prova bytes identicos.
+O dispositivo/provedor pode negar acesso a determinadas pastas.
+Projeto nao compilado nem testado em dispositivo real neste ambiente.

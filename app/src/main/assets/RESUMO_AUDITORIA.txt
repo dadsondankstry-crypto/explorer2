@@ -1,0 +1,5 @@
+AUDITORIA 300 — 3.7 (SOMENTE CÓDIGO)
+Código relacionado: 178
+Parcial: 48
+Não localizado: 74
+Números NÃO certificam compilação ou funcionamento. Revisão baseada em fontes 3.7.

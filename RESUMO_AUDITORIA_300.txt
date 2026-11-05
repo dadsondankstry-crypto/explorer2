@@ -1,0 +1,7 @@
+Explorador ZIP 3.7 — revisão das 300 propostas
+Código relacionado: 178
+Parcial: 48
+Não localizado: 74
+Total: 300
+
+Atenção: contagem de inspeção estática. Testes Android e compilação ainda pendentes.

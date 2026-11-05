@@ -1,0 +1,8 @@
+EXPLORADOR ZIP 3.7 — checklist
+- Ícone tradicional e adaptativo atualizado
+- Pesquisa de nomes em ZIP sem extração
+- Inventário CSV recursivo (limite 3000/24 níveis)
+- Auditoria estática de projeto PWA
+- Tema claro, escuro ou automático; fonte dos botões ajustável
+- Classificação 300 atualizada: código 178, parcial 48, não localizado 74
+- Testes pendentes: build GitHub Actions, instalação Android, funções novas e regressão de ZIP / movimento / backup.

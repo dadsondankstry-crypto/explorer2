@@ -1,0 +1,2411 @@
+{
+  "origem": "Catálogo inicial de 300 propostas",
+  "metodologia": "Leitura do código-fonte 3.5 e dos acréscimos 3.6. Sem compilação nem testes em aparelho. Itens amplos ou incompletos são parciais.",
+  "contagem": {
+    "NO_CODIGO": 170,
+    "PARCIAL": 48,
+    "NAO_LOCALIZADO": 82
+  },
+  "funcoes": [
+    {
+      "id": 1,
+      "funcao": "Criar novas pastas",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 2,
+      "funcao": "Criar arquivos vazios",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 3,
+      "funcao": "Renomear arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 4,
+      "funcao": "Renomear pastas",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 5,
+      "funcao": "Copiar arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 6,
+      "funcao": "Copiar pastas completas",
+      "categoria": "Gerenciamento básico",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 7,
+      "funcao": "Mover arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 8,
+      "funcao": "Mover pastas completas",
+      "categoria": "Gerenciamento básico",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 9,
+      "funcao": "Excluir arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 10,
+      "funcao": "Excluir pastas",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 11,
+      "funcao": "Selecionar vários arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 12,
+      "funcao": "Selecionar todos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 13,
+      "funcao": "Desmarcar todos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 14,
+      "funcao": "Inverter seleção",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 15,
+      "funcao": "Selecionar por extensão",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 16,
+      "funcao": "Selecionar por nome",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 17,
+      "funcao": "Selecionar por tamanho",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 18,
+      "funcao": "Selecionar por data",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 19,
+      "funcao": "Recortar arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 20,
+      "funcao": "Colar arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 21,
+      "funcao": "Duplicar arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 22,
+      "funcao": "Duplicar pastas",
+      "categoria": "Gerenciamento básico",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 23,
+      "funcao": "Criar atalhos internos para pastas",
+      "categoria": "Gerenciamento básico",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 24,
+      "funcao": "Abrir arquivos com outros aplicativos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 25,
+      "funcao": "Compartilhar arquivos",
+      "categoria": "Gerenciamento básico",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / TransferManager.java"
+    },
+    {
+      "id": 26,
+      "funcao": "Abrir ZIP sem extrair",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 27,
+      "funcao": "Navegar dentro de ZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 28,
+      "funcao": "Criar arquivos ZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 29,
+      "funcao": "Compactar vários arquivos",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 30,
+      "funcao": "Compactar pastas completas",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 31,
+      "funcao": "Compactar arquivos ocultos",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 32,
+      "funcao": "Compactar mantendo a estrutura original",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 33,
+      "funcao": "Compactar sem pasta principal",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 34,
+      "funcao": "Compactar com pasta principal",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 35,
+      "funcao": "Escolher o nome do ZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 36,
+      "funcao": "Escolher a pasta de destino",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 37,
+      "funcao": "Selecionar o nível de compressão",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 38,
+      "funcao": "Mostrar progresso da compactação",
+      "categoria": "Compactação e ZIP",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 39,
+      "funcao": "Cancelar compactação",
+      "categoria": "Compactação e ZIP",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 40,
+      "funcao": "Extrair ZIP completo",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 41,
+      "funcao": "Extrair arquivos específicos",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 42,
+      "funcao": "Extrair somente uma pasta do ZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 43,
+      "funcao": "Visualizar arquivos antes de extrair",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 44,
+      "funcao": "Pesquisar arquivos dentro do ZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 45,
+      "funcao": "Verificar integridade do ZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 46,
+      "funcao": "Mostrar tamanho original e compactado",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 47,
+      "funcao": "Mostrar taxa de compressão",
+      "categoria": "Compactação e ZIP",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 48,
+      "funcao": "Detectar ZIP corrompido",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 49,
+      "funcao": "Abrir ZIP protegido por senha",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 50,
+      "funcao": "Criar ZIP criptografado",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 51,
+      "funcao": "Abrir arquivos 7z",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 52,
+      "funcao": "Criar arquivos 7z",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 53,
+      "funcao": "Abrir arquivos RAR",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 54,
+      "funcao": "Extrair arquivos RAR",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 55,
+      "funcao": "Abrir TAR",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 56,
+      "funcao": "Criar TAR",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 57,
+      "funcao": "Abrir GZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 58,
+      "funcao": "Criar GZIP",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 59,
+      "funcao": "Adicionar arquivos a um ZIP existente",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 60,
+      "funcao": "Remover entradas de um ZIP existente",
+      "categoria": "Compactação e ZIP",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 61,
+      "funcao": "Mostrar arquivos ocultos",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 62,
+      "funcao": "Ocultar arquivos ocultos",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 63,
+      "funcao": "Mostrar extensões completas",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 64,
+      "funcao": "Mostrar tamanho dos arquivos",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 65,
+      "funcao": "Mostrar data de criação, quando disponível",
+      "categoria": "Visualização e listagem",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 66,
+      "funcao": "Mostrar data de modificação",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 67,
+      "funcao": "Mostrar data de acesso, quando disponível",
+      "categoria": "Visualização e listagem",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 68,
+      "funcao": "Mostrar tipo MIME",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 69,
+      "funcao": "Mostrar caminho da pasta",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 70,
+      "funcao": "Mostrar quantidade de arquivos",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 71,
+      "funcao": "Mostrar quantidade de subpastas",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 72,
+      "funcao": "Calcular tamanho de pastas",
+      "categoria": "Visualização e listagem",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 73,
+      "funcao": "Exibir arquivos em lista",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 74,
+      "funcao": "Exibir arquivos em grade",
+      "categoria": "Visualização e listagem",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 75,
+      "funcao": "Exibir arquivos em lista detalhada",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 76,
+      "funcao": "Ajustar tamanho dos ícones",
+      "categoria": "Visualização e listagem",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 77,
+      "funcao": "Mostrar miniaturas de imagens",
+      "categoria": "Visualização e listagem",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 78,
+      "funcao": "Mostrar miniaturas de vídeos",
+      "categoria": "Visualização e listagem",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 79,
+      "funcao": "Mostrar ícones por extensão",
+      "categoria": "Visualização e listagem",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 80,
+      "funcao": "Ordenar alfabeticamente",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 81,
+      "funcao": "Ordenar por tamanho",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 82,
+      "funcao": "Ordenar por data",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 83,
+      "funcao": "Ordenar por tipo",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 84,
+      "funcao": "Ordenar pastas primeiro",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 85,
+      "funcao": "Inverter ordenação",
+      "categoria": "Visualização e listagem",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java"
+    },
+    {
+      "id": 86,
+      "funcao": "Lembrar última pasta aberta",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 87,
+      "funcao": "Salvar pastas favoritas",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 88,
+      "funcao": "Histórico de navegação",
+      "categoria": "Navegação",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 89,
+      "funcao": "Botão voltar",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 90,
+      "funcao": "Botão avançar",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 91,
+      "funcao": "Botão pasta superior",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 92,
+      "funcao": "Abrir pasta inicial personalizada",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 93,
+      "funcao": "Acesso rápido às pastas favoritas",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 94,
+      "funcao": "Navegação por abas",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 95,
+      "funcao": "Duas pastas abertas simultaneamente",
+      "categoria": "Navegação",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 96,
+      "funcao": "Painel duplo para copiar e mover",
+      "categoria": "Navegação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 97,
+      "funcao": "Navegação por caminho",
+      "categoria": "Navegação",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 98,
+      "funcao": "Atualizar automaticamente a lista",
+      "categoria": "Navegação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 99,
+      "funcao": "Reabrir abas anteriores",
+      "categoria": "Navegação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 100,
+      "funcao": "Barra lateral com atalhos",
+      "categoria": "Navegação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 101,
+      "funcao": "Salvar locais recentes",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 102,
+      "funcao": "Alternar entre armazenamento interno e SD",
+      "categoria": "Navegação",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 103,
+      "funcao": "Navegar em unidades USB OTG",
+      "categoria": "Navegação",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 104,
+      "funcao": "Mostrar pastas usadas recentemente",
+      "categoria": "Navegação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 105,
+      "funcao": "Abrir arquivos recebidos de outros aplicativos",
+      "categoria": "Navegação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 106,
+      "funcao": "Pesquisar pelo nome",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 107,
+      "funcao": "Pesquisar pela extensão",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 108,
+      "funcao": "Pesquisar por tamanho",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 109,
+      "funcao": "Pesquisar por data",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 110,
+      "funcao": "Pesquisar somente pastas",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 111,
+      "funcao": "Pesquisar somente arquivos",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 112,
+      "funcao": "Pesquisar dentro de subpastas",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 113,
+      "funcao": "Pesquisa em tempo real",
+      "categoria": "Pesquisa",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 114,
+      "funcao": "Pesquisa por palavras parciais",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 115,
+      "funcao": "Pesquisa por expressões regulares",
+      "categoria": "Pesquisa",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 116,
+      "funcao": "Pesquisar arquivos duplicados",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 117,
+      "funcao": "Pesquisar arquivos vazios",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 118,
+      "funcao": "Pesquisar pastas vazias",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 119,
+      "funcao": "Pesquisar arquivos grandes",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 120,
+      "funcao": "Pesquisar por conteúdo de texto",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 121,
+      "funcao": "Salvar pesquisas favoritas",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 122,
+      "funcao": "Histórico de pesquisas",
+      "categoria": "Pesquisa",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 123,
+      "funcao": "Pesquisar dentro de ZIP",
+      "categoria": "Pesquisa",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 124,
+      "funcao": "Filtrar resultados por tipo",
+      "categoria": "Pesquisa",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 125,
+      "funcao": "Exportar lista de resultados",
+      "categoria": "Pesquisa",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / Research36.java"
+    },
+    {
+      "id": 126,
+      "funcao": "Renomear arquivo individual",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 127,
+      "funcao": "Renomear vários arquivos",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 128,
+      "funcao": "Adicionar prefixos",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 129,
+      "funcao": "Adicionar sufixos",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 130,
+      "funcao": "Numerar arquivos automaticamente",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 131,
+      "funcao": "Substituir palavras nos nomes",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 132,
+      "funcao": "Converter nomes para minúsculas",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 133,
+      "funcao": "Converter nomes para maiúsculas",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 134,
+      "funcao": "Remover espaços duplicados",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 135,
+      "funcao": "Trocar espaços por sublinhados",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 136,
+      "funcao": "Remover caracteres especiais",
+      "categoria": "Renomeação e organização",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 137,
+      "funcao": "Renomear usando datas",
+      "categoria": "Renomeação e organização",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 138,
+      "funcao": "Renomear usando metadados",
+      "categoria": "Renomeação e organização",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 139,
+      "funcao": "Mostrar prévia antes de renomear",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 140,
+      "funcao": "Desfazer renomeações em lote",
+      "categoria": "Renomeação e organização",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 141,
+      "funcao": "Organizar arquivos por extensão",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 142,
+      "funcao": "Organizar arquivos por data",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 143,
+      "funcao": "Organizar arquivos por tamanho",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 144,
+      "funcao": "Criar pastas automaticamente",
+      "categoria": "Renomeação e organização",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 145,
+      "funcao": "Aplicar regras de organização",
+      "categoria": "Renomeação e organização",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 146,
+      "funcao": "Visualizar imagens JPG",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 147,
+      "funcao": "Visualizar imagens PNG",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 148,
+      "funcao": "Visualizar GIF",
+      "categoria": "Visualizadores",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 149,
+      "funcao": "Visualizar WebP",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 150,
+      "funcao": "Visualizar arquivos SVG",
+      "categoria": "Visualizadores",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 151,
+      "funcao": "Visualizar documentos PDF",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 152,
+      "funcao": "Abrir arquivos TXT",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 153,
+      "funcao": "Visualizar arquivos HTML",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 154,
+      "funcao": "Visualizar arquivos CSS",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 155,
+      "funcao": "Visualizar arquivos JavaScript",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 156,
+      "funcao": "Visualizar arquivos JSON",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 157,
+      "funcao": "Visualizar arquivos XML",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 158,
+      "funcao": "Reproduzir áudio",
+      "categoria": "Visualizadores",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 159,
+      "funcao": "Reproduzir vídeos",
+      "categoria": "Visualizadores",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 160,
+      "funcao": "Mostrar informações de arquivos APK",
+      "categoria": "Visualizadores",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 161,
+      "funcao": "Visualizar arquivos Markdown",
+      "categoria": "Visualizadores",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 162,
+      "funcao": "Visualizar código com cores",
+      "categoria": "Visualizadores",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 163,
+      "funcao": "Mostrar arquivos em hexadecimal",
+      "categoria": "Visualizadores",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 164,
+      "funcao": "Visualizar arquivos CSV",
+      "categoria": "Visualizadores",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 165,
+      "funcao": "Visualizar fontes instaláveis",
+      "categoria": "Visualizadores",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 166,
+      "funcao": "Editar arquivos TXT",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 167,
+      "funcao": "Editar HTML",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 168,
+      "funcao": "Editar CSS",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 169,
+      "funcao": "Editar JavaScript",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 170,
+      "funcao": "Editar JSON",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 171,
+      "funcao": "Editar XML",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 172,
+      "funcao": "Localizar palavras dentro de arquivos",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 173,
+      "funcao": "Substituir palavras",
+      "categoria": "Edição",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 174,
+      "funcao": "Mostrar números das linhas",
+      "categoria": "Edição",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 175,
+      "funcao": "Destacar sintaxe de programação",
+      "categoria": "Edição",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 176,
+      "funcao": "Salvar alterações",
+      "categoria": "Edição",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 177,
+      "funcao": "Criar cópias de segurança antes de salvar",
+      "categoria": "Edição",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 178,
+      "funcao": "Desfazer alterações",
+      "categoria": "Edição",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 179,
+      "funcao": "Refazer alterações",
+      "categoria": "Edição",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 180,
+      "funcao": "Comparar dois arquivos de texto",
+      "categoria": "Edição",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / Research36.java"
+    },
+    {
+      "id": 181,
+      "funcao": "Mostrar espaço total do dispositivo",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 182,
+      "funcao": "Mostrar espaço disponível",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 183,
+      "funcao": "Mostrar espaço utilizado",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 184,
+      "funcao": "Calcular tamanho de uma pasta",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 185,
+      "funcao": "Encontrar arquivos muito grandes",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 186,
+      "funcao": "Encontrar arquivos duplicados",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 187,
+      "funcao": "Comparar arquivos por hash",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 188,
+      "funcao": "Calcular SHA-256",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 189,
+      "funcao": "Calcular MD5 para comparação",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 190,
+      "funcao": "Mostrar gráficos de armazenamento",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 191,
+      "funcao": "Identificar tipos que ocupam mais espaço",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 192,
+      "funcao": "Exibir as maiores pastas",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 193,
+      "funcao": "Exibir os maiores arquivos",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 194,
+      "funcao": "Encontrar arquivos antigos",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 195,
+      "funcao": "Encontrar arquivos temporários acessíveis",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 196,
+      "funcao": "Identificar diretórios vazios",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 197,
+      "funcao": "Gerar relatório de armazenamento",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 198,
+      "funcao": "Exportar relatório CSV",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 199,
+      "funcao": "Comparar espaço antes e depois de operações",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 200,
+      "funcao": "Monitorar utilização do armazenamento",
+      "categoria": "Espaço e armazenamento",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "AdvancedTools.java / MainActivity.java"
+    },
+    {
+      "id": 201,
+      "funcao": "Pedir confirmação antes de excluir",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 202,
+      "funcao": "Pedir confirmação antes de sobrescrever",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 203,
+      "funcao": "Mostrar prévia de operações em lote",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 204,
+      "funcao": "Criar backups antes de modificar arquivos",
+      "categoria": "Segurança",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 205,
+      "funcao": "Histórico de operações",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 206,
+      "funcao": "Desfazer movimentações quando possível",
+      "categoria": "Segurança",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 207,
+      "funcao": "Verificar integridade por SHA-256",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 208,
+      "funcao": "Identificar nomes de arquivos suspeitos",
+      "categoria": "Segurança",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 209,
+      "funcao": "Detectar tentativas de extração fora da pasta",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 210,
+      "funcao": "Estabelecer limites de extração de ZIP",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 211,
+      "funcao": "Evitar sobrescrita acidental",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 212,
+      "funcao": "Proteger operações com confirmação biométrica",
+      "categoria": "Segurança",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 213,
+      "funcao": "Proteger acesso ao aplicativo com PIN",
+      "categoria": "Segurança",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 214,
+      "funcao": "Criptografar arquivos selecionados",
+      "categoria": "Segurança",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 215,
+      "funcao": "Criar área protegida dentro do aplicativo",
+      "categoria": "Segurança",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 216,
+      "funcao": "Mostrar registro de operações realizadas",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 217,
+      "funcao": "Verificar se um arquivo foi alterado",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 218,
+      "funcao": "Identificar arquivos potencialmente perigosos",
+      "categoria": "Segurança",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 219,
+      "funcao": "Criar cópias de segurança programadas",
+      "categoria": "Segurança",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 220,
+      "funcao": "Restaurar backups criados pelo aplicativo",
+      "categoria": "Segurança",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / AdvancedTools.java / BackupTools.java / RestoreTools.java"
+    },
+    {
+      "id": 221,
+      "funcao": "Compartilhar arquivos pelo menu Android",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 222,
+      "funcao": "Enviar arquivos via Bluetooth",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 223,
+      "funcao": "Receber arquivos pelo compartilhamento Android",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 224,
+      "funcao": "Transferir arquivos por Wi-Fi local",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 225,
+      "funcao": "Servidor HTTP local",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 226,
+      "funcao": "Compartilhar arquivos por QR Code",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 227,
+      "funcao": "Servidor FTP",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 228,
+      "funcao": "Cliente FTP",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 229,
+      "funcao": "Cliente SFTP",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 230,
+      "funcao": "Acessar pastas compartilhadas SMB",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 231,
+      "funcao": "Conectar ao armazenamento NAS",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 232,
+      "funcao": "Transferir arquivos entre dois celulares",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 233,
+      "funcao": "Transferir arquivos para Windows",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 234,
+      "funcao": "Conectar ao Google Drive",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 235,
+      "funcao": "Conectar ao OneDrive",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 236,
+      "funcao": "Sincronizar pastas pela rede",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 237,
+      "funcao": "Continuar transferências interrompidas",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 238,
+      "funcao": "Mostrar velocidade de transferência",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 239,
+      "funcao": "Compartilhar múltiplos arquivos",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 240,
+      "funcao": "Transferir arquivos por rede local sem internet",
+      "categoria": "Compartilhamento e rede",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / LocalShare.java"
+    },
+    {
+      "id": 241,
+      "funcao": "Organizar arquivos automaticamente",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 242,
+      "funcao": "Criar regras por extensão",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 243,
+      "funcao": "Criar regras por nome",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 244,
+      "funcao": "Criar regras por data",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 245,
+      "funcao": "Criar regras por tamanho",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 246,
+      "funcao": "Compactar pastas automaticamente",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 247,
+      "funcao": "Criar backups com um toque",
+      "categoria": "Automação",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 248,
+      "funcao": "Gerar nomes automáticos para ZIP",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 249,
+      "funcao": "Organizar fotos por ano",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 250,
+      "funcao": "Organizar fotos por mês",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 251,
+      "funcao": "Organizar arquivos recebidos",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 252,
+      "funcao": "Detectar duplicados antes de copiar",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 253,
+      "funcao": "Verificar integridade após copiar",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 254,
+      "funcao": "Executar operações em sequência",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 255,
+      "funcao": "Salvar conjuntos de operações",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 256,
+      "funcao": "Criar perfis de organização",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 257,
+      "funcao": "Executar rotinas ao abrir o aplicativo",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 258,
+      "funcao": "Agendar organização de pastas autorizadas",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 259,
+      "funcao": "Gerar relatórios automáticos",
+      "categoria": "Automação",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 260,
+      "funcao": "Exportar configurações do aplicativo",
+      "categoria": "Automação",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SyncTools.java / DeltaBackupTools.java / Research36.java"
+    },
+    {
+      "id": 261,
+      "funcao": "Tema claro",
+      "categoria": "Interface",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 262,
+      "funcao": "Tema escuro",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 263,
+      "funcao": "Seguir o tema do Android",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 264,
+      "funcao": "Escolher cores do aplicativo",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 265,
+      "funcao": "Personalizar tamanho das letras",
+      "categoria": "Interface",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 266,
+      "funcao": "Ajustar tamanho dos ícones",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 267,
+      "funcao": "Escolher visualização padrão",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 268,
+      "funcao": "Personalizar barra de ferramentas",
+      "categoria": "Interface",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 269,
+      "funcao": "Organizar botões por prioridade",
+      "categoria": "Interface",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 270,
+      "funcao": "Criar atalhos personalizados",
+      "categoria": "Interface",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 271,
+      "funcao": "Adicionar gestos de navegação",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 272,
+      "funcao": "Deslizar para selecionar arquivos",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 273,
+      "funcao": "Arrastar arquivos entre painéis",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 274,
+      "funcao": "Mostrar barra de progresso",
+      "categoria": "Interface",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 275,
+      "funcao": "Mostrar notificações de operações",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 276,
+      "funcao": "Escolher idioma da interface",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 277,
+      "funcao": "Adicionar vibração ao selecionar",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 278,
+      "funcao": "Criar menu contextual",
+      "categoria": "Interface",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 279,
+      "funcao": "Personalizar tela inicial",
+      "categoria": "Interface",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 280,
+      "funcao": "Criar widgets para a tela inicial",
+      "categoria": "Interface",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java"
+    },
+    {
+      "id": 281,
+      "funcao": "Reconhecer projetos Android",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 282,
+      "funcao": "Reconhecer projetos HTML",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 283,
+      "funcao": "Identificar arquivos Gradle",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 284,
+      "funcao": "Visualizar arquivos YAML",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 285,
+      "funcao": "Mostrar arquivos .github",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 286,
+      "funcao": "Mostrar arquivos .gitignore",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 287,
+      "funcao": "Validar estrutura básica de projeto Android",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 288,
+      "funcao": "Validar estrutura de PWA",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 289,
+      "funcao": "Verificar manifest de PWA",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 290,
+      "funcao": "Verificar presença de service worker",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NAO_LOCALIZADO",
+      "criterio": "Não foi encontrada implementação específica suficiente nesta versão.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 291,
+      "funcao": "Criar ZIP preparado para ZiptoGit",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 292,
+      "funcao": "Remover pasta principal do ZIP",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 293,
+      "funcao": "Adicionar pasta principal ao ZIP",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 294,
+      "funcao": "Visualizar árvore completa de arquivos",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 295,
+      "funcao": "Exportar árvore do projeto em TXT",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 296,
+      "funcao": "Comparar estrutura de dois projetos",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 297,
+      "funcao": "Comparar dois ZIPs",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 298,
+      "funcao": "Verificar arquivos obrigatórios",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 299,
+      "funcao": "Visualizar informações de APK",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "PARCIAL",
+      "criterio": "Há função relacionada ou implementação limitada; não equivale ao item completo.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    },
+    {
+      "id": 300,
+      "funcao": "Gerar relatório de estrutura do projeto",
+      "categoria": "Desenvolvimento e GitHub",
+      "situacao": "NO_CODIGO",
+      "criterio": "Há código específico compatível com a proposta; falta validar execução no Android.",
+      "arquivo_relacionado": "MainActivity.java / SnapshotTools.java / FolderCompareTools.java"
+    }
+  ]
+}

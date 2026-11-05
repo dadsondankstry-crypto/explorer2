@@ -1,0 +1,36 @@
+# Explorador ZIP 3.2 — Restauração seletiva de backup
+
+Aplicativo Android nativo, offline. Projeto pronto para ZiptoGit com arquivos na raiz do ZIP.
+
+## Novas funções reais 3.2
+
+1. Escolher ZIP de backup pelo seletor do Android.
+2. Escolher pasta de destino autorizada.
+3. Listar arquivos contidos no ZIP sem extração prévia.
+4. Selecionar arquivos individuais (lista paginada).
+5. Alternar entre restaurar tudo ou apenas selecionados.
+6. Pré-verificação de nomes/caminhos perigosos.
+7. Pré-verificação de conflitos com arquivos já existentes.
+8. Confirmação explícita antes de restaurar.
+9. Restaurar árvores de diretórios e arquivos com nomes relativos.
+10. Ignorar arquivos já existentes (não sobrescrever).
+11. Monitorar quantidade de itens concluídos e arquivo em execução.
+12. Solicitar cancelamento durante a leitura.
+13. Gerar relatório de restaurados, ignorados e erros.
+14. Copiar relatório para a área de transferência.
+15. Aplicar limites de tamanho e quantidade durante leitura.
+
+**Limitações:** a restauração cria arquivos novos, não preserva necessariamente datas de criação/modificação; arquivos criados antes de cancelamento permanecem. Não há garantia de restauração atômica, desfazer, backup incremental, suporte a ZIP criptografado ou execução persistente em segundo plano. Algumas operações dependem do provedor de documentos Android.
+
+## Instalação
+
+1. Envie o ZIP original ao ZiptoGit (não extraia/recompacte).
+2. Confira `.github/workflows/main.yml` na raiz do repositório.
+3. Execute GitHub Actions, baixe o artefato `ExploradorZIP-APK` e extraia `app-debug.apk`.
+4. Instale e teste em duas pastas com arquivos descartáveis antes de usar backups importantes.
+
+Versão `3.2.0`, versionCode `14`, applicationId `com.exemplo.exploradorzip`. Ainda **não compilado em Android SDK nem testado no dispositivo**. Atualizações de APK debug podem exigir desinstalação devido à assinatura.
+
+## Contagem do catálogo original de 300 ideias
+
+As versões anteriores apresentaram contagens de **comandos, opções e variações**, frequentemente sobrepostas. Não foi realizada uma auditoria item a item que relacione cada uma das 300 ideias à sua implementação e teste. Portanto não há contagem verificável de quantas das 300 estão efetivamente completas ou faltando. Esta versão adiciona 15 operações/controles listados acima, e não é correto inferir que 15 ideias distintas da lista de 300 foram encerradas. O quadro de cobertura deverá ser auditado à parte.
